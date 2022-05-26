@@ -1,0 +1,52 @@
+$header__height: 80px;
+$main-color: #68c13e;
+$font-color-primary: white;
+$font-color-secondary: black;
+
+
+.header {
+  width: 100%;
+  height: $header__height;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 10px;
+  background-color: $main-color;
+
+  &__logo {
+    height: $header__height;
+    display: flex;
+    align-items: center;
+
+    img {
+      height: calc($header__height - 10px);
+
+    }
+  }
+
+  &__links {
+    font-size: 1.6rem;
+    display: flex;
+    align-items: center;
+    
+    a {
+      color: $font-color-primary;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-top: 5px;
+      margin: 0px 5px;
+      height: $header__height;
+      font-weight: 700;
+    }
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .header__links {
+    width: 500px;
+    justify-content: space-around;
+    a {
+      width: 100px;
+    }
+  }
+}
