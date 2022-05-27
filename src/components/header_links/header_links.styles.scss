@@ -1,0 +1,31 @@
+$header__height: 80px;
+$main-color: #68c13e;
+$font-color-primary: white;
+$font-color-secondary: black;
+
+
+.header__links {
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  width: 400px;
+  margin-right: 20px;
+  justify-content: space-between;
+  
+  a {
+    width: 90px;
+    color: $font-color-primary;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
+    margin: 0px 7px;
+    height: $header__height;
+    font-weight: 700;
+
+    img {
+      height: 25px;
+      margin-right:4px;
+    }
+  }
+}

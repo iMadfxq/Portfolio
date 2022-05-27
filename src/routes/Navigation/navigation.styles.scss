@@ -23,30 +23,4 @@ $font-color-secondary: black;
     }
   }
 
-  &__links {
-    font-size: 1.6rem;
-    display: flex;
-    align-items: center;
-    
-    a {
-      color: $font-color-primary;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding-top: 5px;
-      margin: 0px 5px;
-      height: $header__height;
-      font-weight: 700;
-    }
-  }
-}
-
-@media screen and (min-width: 500px) {
-  .header__links {
-    width: 500px;
-    justify-content: space-around;
-    a {
-      width: 100px;
-    }
-  }
 }
