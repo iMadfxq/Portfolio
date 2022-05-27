@@ -3,14 +3,17 @@ import "./App.scss";
 
 import { Route, Routes } from "react-router";
 
-import Navigation from "./routes/Navigation/navigation.jsx";
+import Navigation from "./routes/Navigation/navigation.route.jsx";
+import Profile from "./routes/Profile/profile.route";
 
 function App() {
   return (
     <>
-    <Routes>
-      <Route path="/" element={<Navigation />} />
-    </Routes>
+      <Routes>
+        <Route path="/" element={<Navigation />}>
+          <Route index element={<Profile />} />
+        </Route>
+      </Routes>
     </>
   );
 }
