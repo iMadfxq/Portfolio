@@ -1,0 +1,25 @@
+$header__height: 80px;
+$main-color: #68c13e;
+$secondary-color: #86cd65;
+$tertiary-color: #a2df85;
+$font-color-primary: white;
+$font-color-secondary: black;
+
+.profile__quotes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 360px;
+  height: 100px;
+  padding: 10px;
+  background-color: $tertiary-color;
+  border-radius: 20px;
+  transition: 400ms;
+
+  p {
+    font-size: 1.6rem;
+    width: 300px;
+    text-align: center;
+    font-style: italic;
+  }
+}

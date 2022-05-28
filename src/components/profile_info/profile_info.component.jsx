@@ -7,7 +7,7 @@ import MyPicture from '../../assets/images/myPicture-compressed.png'
 const ProfileInfo = () => {
   return (
     <section className="profile__info">
-      <img src={MyPicture} alt="" />
+      <img src={MyPicture} alt="iMadfxq's Profile Picture" />
       <div className="profile__info-text">
         <h1>Hi, I'm Oscar Gomez</h1>
         <p>
