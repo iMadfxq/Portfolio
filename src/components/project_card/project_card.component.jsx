@@ -5,13 +5,13 @@ import LinkIcon from "../../assets/images/link_icon.svg";
 
 const ProjectCard = ({ project }) => {
   return (
-    <a href={project.website} target="_blank" className="project">
+    <article className="project">
       <div className="project__info">
         <img src={project.imgUrl} alt={`iMadfxq's ${project.title}`} />
         <ul className="project__info--tags">
           {project.tags.map((tag, i) => {
             if (i < 3) {
-              return <li>{tag}</li>;
+              return <li key={i}>{tag}</li>;
             }
             return "";
           })}
@@ -28,7 +28,7 @@ const ProjectCard = ({ project }) => {
           Github
         </a>
       </div>
-    </a>
+    </article>
   );
 };
 

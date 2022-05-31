@@ -1,4 +1,15 @@
-import ReactNotesApp from '../assets/images/reactNotesApp.png'
+import CrunchObleasImg from '../assets/images/projects/design.png'
+import ImadfxqBlogImg from '../assets/images/projects/myBlogProject1.png'
+import IngenieriaImg from '../assets/images/projects/a&s_ingenieria.png'
+import RickMortyImg from '../assets/images/projects/spa.png'
+import AreaCalculatorImg from '../assets/images/projects/AreaCalc.png'
+import PopUpImg from '../assets/images/projects/simplePopUp.png'
+import DigitalClockImg from '../assets/images/projects/digitalClock.png'
+import TodoAppImg from '../assets/images/projects/todoApp.png'
+import QuizImg from '../assets/images/projects/quiz.png'
+import WeatherAppImg from '../assets/images/projects/weatherApp.png'
+import MonstersSpaImg from '../assets/images/projects/monsters_SPA.png'
+import ReactNotesApp from "../assets/images/projects/reactNotesApp.png";
 
 export const QUOTES = [
   "The best moment to get a map is before entering the woods.",
@@ -16,16 +27,100 @@ export const QUOTES = [
 ];
 
 export const PROJECTS = [
-  { title: "", tags: [], imgUrl: "", website: "", github: "", id: 0 },
-  { title: "", tags: [], imgUrl: "", website: "", github: "", id: 1 },
-  { title: "", tags: [], imgUrl: "", website: "", github: "", id: 2 },
-  { title: "", tags: [], imgUrl: "", website: "", github: "", id: 3 },
-  { title: "", tags: [], imgUrl: "", website: "", github: "", id: 4 },
-  { title: "", tags: [], imgUrl: "", website: "", github: "", id: 5 },
-  { title: "", tags: [], imgUrl: "", website: "", github: "", id: 6 },
-  { title: "", tags: [], imgUrl: "", website: "", github: "", id: 7 },
-  { title: "", tags: [], imgUrl: "", website: "", github: "", id: 8 },
-  { title: "", tags: [], imgUrl: "", website: "", github: "", id: 9 },
-  { title: "", tags: [], imgUrl: "", website: "", github: "", id: 10 },
-  { title: "React Notes App", tags: ['React-DOM', 'Redux', 'JavaScript'], imgUrl: ReactNotesApp, website: "https://incredible-stroopwafel-e4fcd9.netlify.app/", github: "https://github.com/iMadfxq/react-NotesApp", id: 11 },
+  {
+    title: "Crunch Obleas",
+    tags: ["HTML", "CSS", "Responsive"],
+    imgUrl: CrunchObleasImg,
+    website: "https://imadfxq.github.io/Crunch-Obleas/",
+    github: "https://github.com/iMadfxq/Crunch-Obleas",
+    id: 0,
+  },
+  {
+    title: "iMadfxq's Blog",
+    tags: ["HTML", "CSS", "Responsive"],
+    imgUrl: ImadfxqBlogImg,
+    website: "https://imadfxq.github.io/my-blog/",
+    github: "https://github.com/iMadfxq/my-blog",
+    id: 1,
+  },
+  {
+    title: "A&S Ingenieria",
+    tags: ["HTML", "SCSS", "Webpack"],
+    imgUrl: IngenieriaImg,
+    website: "https://imadfxq.github.io/Ingenieria-website/dist/",
+    github: "https://github.com/iMadfxq/Ingenieria-website",
+    id: 2,
+  },
+  {
+    title: "Rick and Morty SPA",
+    tags: ["HTML", "SCSS", "JavaScript"],
+    imgUrl: RickMortyImg,
+    website: "https://imadfxq.github.io/Rick_Morty_characters/dist/index.html",
+    github: "https://github.com/iMadfxq/Rick_Morty_characters",
+    id: 3,
+  },
+  {
+    title: "Area Calculator",
+    tags: ["HTML", "CSS", "JavaScript"],
+    imgUrl: AreaCalculatorImg,
+    website: "https://imadfxq.github.io/Area_calculator/",
+    github: "https://github.com/iMadfxq/Area_calculator",
+    id: 4,
+  },
+  {
+    title: "Custom PopUp",
+    tags: ["HTML", "CSS", "JavaScript"],
+    imgUrl: PopUpImg,
+    website: "https://imadfxq.github.io/pop-up/",
+    github: "https://github.com/iMadfxq/pop-up",
+    id: 5,
+  },
+  {
+    title: "Digital Clock",
+    tags: ["HTML", "CSS", "JavaScript"],
+    imgUrl: DigitalClockImg,
+    website: "https://imadfxq.github.io/digitalClock/",
+    github: "https://github.com/iMadfxq/digitalClock",
+    id: 6,
+  },
+  {
+    title: "ToDo App",
+    tags: ["localStorage", "JavaScript", "DOM"],
+    imgUrl: TodoAppImg,
+    website: "https://imadfxq.github.io/todo-app/",
+    github: "https://github.com/iMadfxq/todo-app",
+    id: 7,
+  },
+  {
+    title: "Quiz",
+    tags: ["JavaScript", "localStorage", "DOM"],
+    imgUrl: QuizImg,
+    website: "https://imadfxq.github.io/simpleQuiz/",
+    github: "https://github.com/iMadfxq/simpleQuiz",
+    id: 8,
+  },
+  {
+    title: "Weather App",
+    tags: ["JavaScript", "Fetch", "Async JS"],
+    imgUrl: WeatherAppImg,
+    website: "https://imadfxq.github.io/weatherApp/",
+    github: "https://github.com/iMadfxq/weatherApp",
+    id: 9,
+  },
+  {
+    title: "Monsters SPA",
+    tags: ["React-DOM", "Fetch", "JavaScript"],
+    imgUrl: MonstersSpaImg,
+    website: "https://fanciful-starship-7128b4.netlify.app/",
+    github: "https://github.com/iMadfxq/monsters_SPA",
+    id: 10,
+  },
+  {
+    title: "React Notes App",
+    tags: ["React-DOM", "Redux", "JavaScript"],
+    imgUrl: ReactNotesApp,
+    website: "https://incredible-stroopwafel-e4fcd9.netlify.app/",
+    github: "https://github.com/iMadfxq/react-NotesApp",
+    id: 11,
+  },
 ];
