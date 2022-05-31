@@ -16,7 +16,7 @@ const Quotes = () => {
       } else {
         i++;
       }
-      setCurrentQuote(QUOTES[i]);
+      setCurrentQuote(QUOTES[Math.floor(Math.random() * QUOTES.length)]);
       console.log(i);
     }, 7000);
 
