@@ -1,0 +1,14 @@
+$header__height: 80px;
+$main-color: #68c13e;
+$secondary-color: #86cd65;
+$tertiary-color: #a2df85;
+$font-color-primary: white;
+$font-color-secondary: black;
+
+h2 {
+  font-size: 2.6rem;
+margin: 20px;
+background-color: $tertiary-color;
+padding: 20px;
+border-radius: 20px;
+}

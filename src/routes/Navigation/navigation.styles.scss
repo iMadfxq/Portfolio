@@ -6,7 +6,7 @@ $font-color-primary: white;
 $font-color-secondary: black;
 
 .app-wrapper{
-  height: 100vh;
+  min-height: 100vh;
   background-color: $secondary-color;
 }
 

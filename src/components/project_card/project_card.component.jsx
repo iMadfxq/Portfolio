@@ -16,7 +16,7 @@ const ProjectCard = ({ project }) => {
             return "";
           })}
         </ul>
-        <h2>{project.title}</h2>
+        <h3>{project.title}</h3>
       </div>
       <div className="project__buttons">
         <a href={project.website} target="_blank">
