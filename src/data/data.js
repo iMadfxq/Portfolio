@@ -1,15 +1,28 @@
-import CrunchObleasImg from '../assets/images/projects/design.png'
-import ImadfxqBlogImg from '../assets/images/projects/myBlogProject1.png'
-import IngenieriaImg from '../assets/images/projects/a&s_ingenieria.png'
-import RickMortyImg from '../assets/images/projects/spa.png'
-import AreaCalculatorImg from '../assets/images/projects/AreaCalc.png'
-import PopUpImg from '../assets/images/projects/simplePopUp.png'
-import DigitalClockImg from '../assets/images/projects/digitalClock.png'
-import TodoAppImg from '../assets/images/projects/todoApp.png'
-import QuizImg from '../assets/images/projects/quiz.png'
-import WeatherAppImg from '../assets/images/projects/weatherApp.png'
-import MonstersSpaImg from '../assets/images/projects/monsters_SPA.png'
+import CrunchObleasImg from "../assets/images/projects/design.png";
+import ImadfxqBlogImg from "../assets/images/projects/myBlogProject1.png";
+import IngenieriaImg from "../assets/images/projects/a&s_ingenieria.png";
+import RickMortyImg from "../assets/images/projects/spa.png";
+import AreaCalculatorImg from "../assets/images/projects/AreaCalc.png";
+import PopUpImg from "../assets/images/projects/simplePopUp.png";
+import DigitalClockImg from "../assets/images/projects/digitalClock.png";
+import TodoAppImg from "../assets/images/projects/todoApp.png";
+import QuizImg from "../assets/images/projects/quiz.png";
+import WeatherAppImg from "../assets/images/projects/weatherApp.png";
+import MonstersSpaImg from "../assets/images/projects/monsters_SPA.png";
 import ReactNotesApp from "../assets/images/projects/reactNotesApp.png";
+
+import BrazilFlag from "../assets/images/langs/Flag_of_Brazil.svg";
+import USAFlag from "../assets/images/langs/Flag_of_the_United_States.svg";
+import SpainFlag from "../assets/images/langs/Flag_of_Spain.svg";
+
+import GitImg from "../assets/images/skills/git_logo.svg";
+import SassImg from "../assets/images/skills/Sass_logo.svg";
+import WebpackImg from "../assets/images/skills/webpack.svg";
+import ReactImg from "../assets/images/skills/React-icon.svg";
+import ReactRouterImg from "../assets/images/skills/reactrouter.svg";
+import CommandLineImg from "../assets/images/skills/commandLine.svg";
+import ReduxImg from "../assets/images/skills/redux.svg";
+import NpmImg from "../assets/images/skills/Npm.svg";
 
 export const QUOTES = [
   "The best moment to get a map is before entering the woods.",
@@ -24,6 +37,49 @@ export const QUOTES = [
   "You can't avoid effort, you can only pospone it.",
   "Do not confuse culture with intelligence.",
   "Be proud of the things you don't know, especially those that don't make you any better",
+];
+
+export const SKILLS = [
+  {
+    skillImg: ReactImg,
+    skillName: "React",
+    id: 0,
+  },
+  {
+    skillImg: ReduxImg,
+    skillName: "Redux",
+    id: 1,
+  },
+  {
+    skillImg: ReactRouterImg,
+    skillName: "React-router",
+    id: 2,
+  },
+  {
+    skillImg: SassImg,
+    skillName: "SASS",
+    id: 3,
+  },
+  {
+    skillImg: WebpackImg,
+    skillName: "Webpack",
+    id: 4,
+  },
+  {
+    skillImg: GitImg,
+    skillName: "Git",
+    id: 5,
+  },
+  {
+    skillImg: CommandLineImg,
+    skillName: "Command Line",
+    id: 6,
+  },
+  {
+    skillImg: NpmImg,
+    skillName: "NPM",
+    id: 7,
+  },
 ];
 
 export const PROJECTS = [
@@ -122,5 +178,16 @@ export const PROJECTS = [
     website: "https://incredible-stroopwafel-e4fcd9.netlify.app/",
     github: "https://github.com/iMadfxq/react-NotesApp",
     id: 11,
+  },
+];
+
+export const LANGUAGES = [
+  { languageImg: SpainFlag, languageVideo: "", languageName: "Spanish", id: 0 },
+  { languageImg: USAFlag, languageVideo: "", languageName: "English", id: 1 },
+  {
+    languageImg: BrazilFlag,
+    languageVideo: "",
+    languageName: "Portuguese",
+    id: 2,
   },
 ];
