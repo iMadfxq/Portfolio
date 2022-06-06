@@ -197,7 +197,7 @@ export const LANGUAGES = [
   },
 ];
 
-export const CONTACT = [
+export const CONTACTS = [
   {
     img: GitHubLogo,
     name: "GitHub",

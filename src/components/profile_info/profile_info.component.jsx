@@ -16,7 +16,7 @@ const ProfileInfo = () => {
           , and congruency. That's why I'm always working to get better
           as a professional and as a human being.
         </p>
-        <Link to="/skills" className='next-button'>See skills</Link>
+        <Link to="/skills" className='next-button'>See skills →</Link>
       </div>
     </section>
 
