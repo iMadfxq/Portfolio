@@ -5,6 +5,14 @@ $tertiary-color: #a2df85;
 $font-color-primary: white;
 $font-color-secondary: black;
 
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding-bottom: 80px;
+}
+
 h2 {
   font-size: 2.6rem;
 margin: 20px;

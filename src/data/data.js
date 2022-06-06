@@ -24,6 +24,11 @@ import CommandLineImg from "../assets/images/skills/commandLine.svg";
 import ReduxImg from "../assets/images/skills/redux.svg";
 import NpmImg from "../assets/images/skills/Npm.svg";
 
+import LinkedInLogo from "../assets/images/contact/linkedin.svg";
+import GitHubLogo from "../assets/images/contact/github_icon.svg";
+import MailLogo from "../assets/images/contact/mail_icon_128820.svg";
+import InstagramLogo from "../assets/images/contact/instagram.svg";
+
 export const QUOTES = [
   "The best moment to get a map is before entering the woods.",
   "The best moment to plant a tree was 20 years ago.",
@@ -189,5 +194,40 @@ export const LANGUAGES = [
     languageVideo: "",
     languageName: "Portuguese",
     id: 2,
+  },
+];
+
+export const CONTACT = [
+  {
+    img: GitHubLogo,
+    name: "GitHub",
+    description:
+      "Where you will find the code of my projects, you will also be able to see how I'm constantly coding.",
+    url: "https://github.com/iMadfxq",
+    id: 0,
+  },
+  {
+    img: LinkedInLogo,
+    name: "LinkedIn",
+    description:
+      "Where you will find my education and experience, my professional profile.",
+    url: "https://www.linkedin.com/in/imadfxq/",
+    id: 1,
+  },
+  {
+    img: InstagramLogo,
+    name: "Instagram",
+    description:
+      "Where you will find small pieces of my life, things I like to do, and what I'm interested in.",
+    url: "https://www.instagram.com/imadfxq/",
+    id: 2,
+  },
+  {
+    img: MailLogo,
+    name: "Mail",
+    description:
+      "The basic contact method, simple but effective. Professional.",
+    url: "mailto:imadfxq@imadfxq.com?subject=Hey, I saw your portfolio, I would like you to work with me",
+    id: 3,
   },
 ];
