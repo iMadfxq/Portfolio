@@ -1,7 +1,15 @@
+$header__height: 80px;
+$main-color: #68c13e;
+$secondary-color: #86cd65;
+$tertiary-color: #a2df85;
+$font-color-primary: white;
+$font-color-secondary: black;
+
 .contact {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: $header__height;
 
   &__cards {
     display: flex;

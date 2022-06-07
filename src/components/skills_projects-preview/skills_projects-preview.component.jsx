@@ -3,6 +3,7 @@ import "./skills_projects-preview.styles.scss";
 import { PROJECTS } from "../../data/data.js";
 
 import ProjectCard from "../../components/project_card/project_card.component";
+import PlusButton from "../plus_button/plus_button.component";
 
 const SkillsProjects = () => {
   let latestProjects = PROJECTS.slice(-3);
@@ -15,6 +16,7 @@ const SkillsProjects = () => {
           <ProjectCard key={project.id} project={project} />
         ))}
       </div>
+      <PlusButton where={"/skills/projects"} external={false} />
     </section>
   );
 };

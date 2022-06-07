@@ -8,6 +8,7 @@ $font-color-secondary: black;
 .app-wrapper{
   min-height: 100vh;
   background-color: $secondary-color;
+  position: relative;
 }
 
 .header {
@@ -17,6 +18,7 @@ $font-color-secondary: black;
   justify-content: space-between;
   padding: 0px 10px;
   background-color: $main-color;
+  position: fixed;
 
   &__logo {
     height: $header__height;

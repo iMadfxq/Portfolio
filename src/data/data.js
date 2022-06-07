@@ -202,7 +202,7 @@ export const CONTACTS = [
     img: GitHubLogo,
     name: "GitHub",
     description:
-      "Where you will find the code of my projects, you will also be able to see how I'm constantly coding.",
+      "Code of my projects, coding streak.",
     url: "https://github.com/iMadfxq",
     id: 0,
   },
@@ -210,7 +210,7 @@ export const CONTACTS = [
     img: LinkedInLogo,
     name: "LinkedIn",
     description:
-      "Where you will find my education and experience, my professional profile.",
+      "Education, and experience. Professional profile.",
     url: "https://www.linkedin.com/in/imadfxq/",
     id: 1,
   },
@@ -218,7 +218,7 @@ export const CONTACTS = [
     img: InstagramLogo,
     name: "Instagram",
     description:
-      "Where you will find small pieces of my life, things I like to do, and what I'm interested in.",
+      "Small pieces of my life, things I like to do, interests.",
     url: "https://www.instagram.com/imadfxq/",
     id: 2,
   },

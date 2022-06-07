@@ -2,6 +2,8 @@ import './skills_languages.styles.scss'
 
 import { LANGUAGES } from '../../data/data'
 
+import PlusButton from "../plus_button/plus_button.component";
+
 const SkillsLanguages = () => {
   return (
     <section className="skills__langs">
@@ -14,6 +16,7 @@ const SkillsLanguages = () => {
           </a>
         ))}
       </div>
+      <PlusButton where={"https://www.youtube.com/playlist?list=PLYCO_b1Nxk3ztWS310KRWr3SgFT3kM26I"} external={true} />
     </section>
 
   )
