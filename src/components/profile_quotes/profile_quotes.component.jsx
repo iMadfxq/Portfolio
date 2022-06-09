@@ -6,7 +6,7 @@ import { useEffect } from "react";
 import { useState } from "react";
 
 const Quotes = () => {
-  const [currentQuote, setCurrentQuote] = useState(QUOTES[0]);
+  const [currentQuote, setCurrentQuote] = useState(QUOTES[Math.floor(Math.random() * QUOTES.length)]);
 
   useEffect(() => {
     let i = 0;
@@ -18,7 +18,7 @@ const Quotes = () => {
       }
       setCurrentQuote(QUOTES[Math.floor(Math.random() * QUOTES.length)]);
       console.log(i);
-    }, 7000);
+    }, 5000);
 
     return () => {
       clearInterval(interval);

@@ -10,6 +10,7 @@ $font-color-secondary: black;
   flex-direction: column;
   align-items: center;
   padding-top: $header__height;
+  padding-bottom: 30px;
 
   &__cards {
     display: flex;

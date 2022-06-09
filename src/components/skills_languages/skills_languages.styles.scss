@@ -11,12 +11,11 @@ $font-color-secondary: black;
   flex-direction: column;
   align-items: center;
   padding-bottom: 20px;
-  transition: 400ms;  
-
 
   &--cards {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 
     a {
       display: flex;

@@ -10,7 +10,8 @@ $font-color-secondary: black;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 800px;
+  min-width: 300px;
+  max-width: 800px;
   padding: 20px;
 
   img {
@@ -38,7 +39,8 @@ $font-color-secondary: black;
     p {
       font-size: 1.8rem;
       margin-bottom: 15px;
-      width: 500px;
+      min-width: 300px;
+      max-width: 500px;
       text-align: center;
     }
     a {
