@@ -10,6 +10,7 @@ $font-color-secondary: black;
   display: flex;
   justify-content: center;
   width: 100%;
+  height: 60px;
   
   
   button {
@@ -21,9 +22,14 @@ $font-color-secondary: black;
     width: 100px;
     cursor: pointer;
     transition: 400ms;
+    font-size: 1.4rem;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+  .item-active {
+    background-color: yellow;
   }
 }
 
-.item-active {
-  background-color: yellow;
-}

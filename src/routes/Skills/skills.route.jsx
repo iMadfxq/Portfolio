@@ -12,6 +12,7 @@ const Skills = () => {
       <SkillsIcons />
       <SkillsProjectsPreview />
       <SkillsLanguages />
+      <Link to="/contact" className='next-button'>Contact Me →</Link>
     </section>
   );
 };

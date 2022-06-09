@@ -10,7 +10,9 @@ $font-color-secondary: black;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
+  transition: 400ms;  
+
 
   &--cards {
     display: flex;

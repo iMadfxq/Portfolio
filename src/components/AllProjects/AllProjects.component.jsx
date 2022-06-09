@@ -6,6 +6,9 @@ import { PROJECTS } from "../../data/data";
 import ProjectCard from "../project_card/project_card.component";
 import ProjectsFilter from "../projectsFilter/projectsFilter.component";
 
+import { Link } from "react-router-dom";
+
+
 const AllProjects = () => {
   let [active, setActive] = useState("");
   let filteredProjects = PROJECTS.filter((project) => {
@@ -29,6 +32,7 @@ const AllProjects = () => {
           <ProjectCard project={p} key={p.id} />
         ))}
       </section>
+      <Link to="/skills" className='next-button'>← Go Back</Link>
     </section>
   );
 };

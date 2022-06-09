@@ -3,4 +3,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 40px;
+
+  .allprojects__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 18px;
+  }
 }
