@@ -16,7 +16,7 @@ const SkillsProjectsPreview = () => {
           <ProjectCard key={project.id} project={project} />
         ))}
       </div>
-      <PlusButton where={"/skills/projects"} external={false} />
+      <PlusButton where={"/projects"} external={false} />
     </section>
   );
 };
