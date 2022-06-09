@@ -106,7 +106,7 @@ export const PROJECTS = [
   },
   {
     title: "A&S Ingenieria",
-    tags: ["HTML", "SCSS", "Webpack"],
+    tags: ["HTML", "SCSS", "Webpack", "Responsive"],
     imgUrl: IngenieriaImg,
     website: "https://imadfxq.github.io/Ingenieria-website/dist/",
     github: "https://github.com/iMadfxq/Ingenieria-website",
@@ -114,7 +114,7 @@ export const PROJECTS = [
   },
   {
     title: "Rick and Morty SPA",
-    tags: ["HTML", "SCSS", "JavaScript"],
+    tags: ["HTML", "SCSS", "JavaScript", "Responsive"],
     imgUrl: RickMortyImg,
     website: "https://imadfxq.github.io/Rick_Morty_characters/dist/index.html",
     github: "https://github.com/iMadfxq/Rick_Morty_characters",
@@ -122,7 +122,7 @@ export const PROJECTS = [
   },
   {
     title: "Area Calculator",
-    tags: ["HTML", "CSS", "JavaScript"],
+    tags: ["HTML", "CSS", "JavaScript", "Responsive"],
     imgUrl: AreaCalculatorImg,
     website: "https://imadfxq.github.io/Area_calculator/",
     github: "https://github.com/iMadfxq/Area_calculator",
@@ -130,7 +130,7 @@ export const PROJECTS = [
   },
   {
     title: "Custom PopUp",
-    tags: ["HTML", "CSS", "JavaScript"],
+    tags: ["HTML", "CSS", "JavaScript", "Responsive"],
     imgUrl: PopUpImg,
     website: "https://imadfxq.github.io/pop-up/",
     github: "https://github.com/iMadfxq/pop-up",
@@ -138,7 +138,7 @@ export const PROJECTS = [
   },
   {
     title: "Digital Clock",
-    tags: ["HTML", "CSS", "JavaScript"],
+    tags: ["HTML", "CSS", "JavaScript", "Responsive"],
     imgUrl: DigitalClockImg,
     website: "https://imadfxq.github.io/digitalClock/",
     github: "https://github.com/iMadfxq/digitalClock",
@@ -146,7 +146,7 @@ export const PROJECTS = [
   },
   {
     title: "ToDo App",
-    tags: ["localStorage", "JavaScript", "DOM"],
+    tags: ["localStorage", "JavaScript", "DOM", "Responsive"],
     imgUrl: TodoAppImg,
     website: "https://imadfxq.github.io/todo-app/",
     github: "https://github.com/iMadfxq/todo-app",
@@ -154,7 +154,7 @@ export const PROJECTS = [
   },
   {
     title: "Quiz",
-    tags: ["JavaScript", "localStorage", "DOM"],
+    tags: ["JavaScript", "localStorage", "DOM", "Responsive"],
     imgUrl: QuizImg,
     website: "https://imadfxq.github.io/simpleQuiz/",
     github: "https://github.com/iMadfxq/simpleQuiz",
@@ -162,7 +162,7 @@ export const PROJECTS = [
   },
   {
     title: "Weather App",
-    tags: ["JavaScript", "Fetch", "Async JS"],
+    tags: ["JavaScript", "Fetch", "Async JS", "Responsive", "localStorage"],
     imgUrl: WeatherAppImg,
     website: "https://imadfxq.github.io/weatherApp/",
     github: "https://github.com/iMadfxq/weatherApp",
@@ -170,7 +170,7 @@ export const PROJECTS = [
   },
   {
     title: "Monsters SPA",
-    tags: ["React-DOM", "Fetch", "JavaScript"],
+    tags: ["React-DOM", "Fetch", "JavaScript", "Responsive"],
     imgUrl: MonstersSpaImg,
     website: "https://fanciful-starship-7128b4.netlify.app/",
     github: "https://github.com/iMadfxq/monsters_SPA",
@@ -178,7 +178,7 @@ export const PROJECTS = [
   },
   {
     title: "React Notes App",
-    tags: ["React-DOM", "Redux", "JavaScript"],
+    tags: ["React-DOM", "Redux", "JavaScript", "Responsive", "localStorage"],
     imgUrl: ReactNotesApp,
     website: "https://incredible-stroopwafel-e4fcd9.netlify.app/",
     github: "https://github.com/iMadfxq/react-NotesApp",
