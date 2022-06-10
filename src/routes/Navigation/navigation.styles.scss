@@ -16,9 +16,11 @@ $font-color-secondary: black;
   height: $header__height;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 0px 10px;
   background-color: $main-color;
   position: fixed;
+  z-index: 2;
 
   &__logo {
     height: $header__height;
@@ -31,4 +33,13 @@ $font-color-secondary: black;
     }
   }
 
+}
+
+@media screen and (max-width: 460px) {
+  header .navigation--mobile {
+    display: flex;
+  }
+  header .header__links {
+    display: none;
+  }
 }

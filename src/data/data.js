@@ -187,11 +187,11 @@ export const PROJECTS = [
 ];
 
 export const LANGUAGES = [
-  { languageImg: SpainFlag, languageVideo: "", languageName: "Spanish", id: 0 },
-  { languageImg: USAFlag, languageVideo: "", languageName: "English", id: 1 },
+  { languageImg: SpainFlag, languageVideo: "https://www.youtube.com/watch?v=Ue3gUA5Leyw&ab_channel=iMadfxq", languageName: "Spanish", id: 0 },
+  { languageImg: USAFlag, languageVideo: "https://www.youtube.com/watch?v=hl_viwChs34&t=15s&ab_channel=iMadfxq", languageName: "English", id: 1 },
   {
     languageImg: BrazilFlag,
-    languageVideo: "",
+    languageVideo: "https://www.youtube.com/watch?v=kaq3cPl7ofc&ab_channel=iMadfxq",
     languageName: "Portuguese",
     id: 2,
   },
