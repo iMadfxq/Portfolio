@@ -9,8 +9,10 @@ $font-color-secondary: black;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   padding-top: $header__height;
   padding-bottom: 30px;
+  min-height: 100vh;
 
   &__cards {
     display: flex;

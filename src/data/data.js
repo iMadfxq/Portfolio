@@ -1,4 +1,5 @@
 import CrunchObleasImg from "../assets/images/projects/design.png";
+import OldPortfolio from '../assets/images/projects/oldPortfolio.png'
 import ImadfxqBlogImg from "../assets/images/projects/myBlogProject1.png";
 import IngenieriaImg from "../assets/images/projects/a&s_ingenieria.png";
 import RickMortyImg from "../assets/images/projects/spa.png";
@@ -97,12 +98,20 @@ export const PROJECTS = [
     id: 0,
   },
   {
+    title: "Old Portfolio",
+    tags: ["HTML", "CSS", "Responsive", "JavaScript"],
+    imgUrl: OldPortfolio,
+    website: "https://imadfxq.github.io/myOwnWebPage/",
+    github: "https://github.com/iMadfxq/myOwnWebPage",
+    id: 1,
+  },
+  {
     title: "iMadfxq's Blog",
     tags: ["HTML", "CSS", "Responsive"],
     imgUrl: ImadfxqBlogImg,
     website: "https://imadfxq.github.io/my-blog/",
     github: "https://github.com/iMadfxq/my-blog",
-    id: 1,
+    id: 2,
   },
   {
     title: "A&S Ingenieria",
@@ -110,7 +119,7 @@ export const PROJECTS = [
     imgUrl: IngenieriaImg,
     website: "https://imadfxq.github.io/Ingenieria-website/dist/",
     github: "https://github.com/iMadfxq/Ingenieria-website",
-    id: 2,
+    id: 3,
   },
   {
     title: "Rick and Morty SPA",
@@ -118,7 +127,7 @@ export const PROJECTS = [
     imgUrl: RickMortyImg,
     website: "https://imadfxq.github.io/Rick_Morty_characters/dist/index.html",
     github: "https://github.com/iMadfxq/Rick_Morty_characters",
-    id: 3,
+    id: 4,
   },
   {
     title: "Area Calculator",
@@ -126,7 +135,7 @@ export const PROJECTS = [
     imgUrl: AreaCalculatorImg,
     website: "https://imadfxq.github.io/Area_calculator/",
     github: "https://github.com/iMadfxq/Area_calculator",
-    id: 4,
+    id: 5,
   },
   {
     title: "Custom PopUp",
@@ -134,7 +143,7 @@ export const PROJECTS = [
     imgUrl: PopUpImg,
     website: "https://imadfxq.github.io/pop-up/",
     github: "https://github.com/iMadfxq/pop-up",
-    id: 5,
+    id: 6,
   },
   {
     title: "Digital Clock",
@@ -142,7 +151,7 @@ export const PROJECTS = [
     imgUrl: DigitalClockImg,
     website: "https://imadfxq.github.io/digitalClock/",
     github: "https://github.com/iMadfxq/digitalClock",
-    id: 6,
+    id: 7,
   },
   {
     title: "ToDo App",
@@ -150,7 +159,7 @@ export const PROJECTS = [
     imgUrl: TodoAppImg,
     website: "https://imadfxq.github.io/todo-app/",
     github: "https://github.com/iMadfxq/todo-app",
-    id: 7,
+    id: 8,
   },
   {
     title: "Quiz",
@@ -158,7 +167,7 @@ export const PROJECTS = [
     imgUrl: QuizImg,
     website: "https://imadfxq.github.io/simpleQuiz/",
     github: "https://github.com/iMadfxq/simpleQuiz",
-    id: 8,
+    id: 9,
   },
   {
     title: "Weather App",
@@ -166,7 +175,7 @@ export const PROJECTS = [
     imgUrl: WeatherAppImg,
     website: "https://imadfxq.github.io/weatherApp/",
     github: "https://github.com/iMadfxq/weatherApp",
-    id: 9,
+    id: 10,
   },
   {
     title: "Monsters SPA",
@@ -174,7 +183,7 @@ export const PROJECTS = [
     imgUrl: MonstersSpaImg,
     website: "https://fanciful-starship-7128b4.netlify.app/",
     github: "https://github.com/iMadfxq/monsters_SPA",
-    id: 10,
+    id: 11,
   },
   {
     title: "React Notes App",
@@ -182,7 +191,7 @@ export const PROJECTS = [
     imgUrl: ReactNotesApp,
     website: "https://incredible-stroopwafel-e4fcd9.netlify.app/",
     github: "https://github.com/iMadfxq/react-NotesApp",
-    id: 11,
+    id: 12,
   },
 ];
 
