@@ -11,7 +11,9 @@ $font-color-secondary: black;
   padding: 10px;
   border-radius: 20px;
   background-color: $tertiary-color;
-  transition: 400ms;  
+  transition: 400ms;
+  text-decoration: underline;
+  cursor: pointer;
 
   &:hover {
     transform: scale(1.1);

@@ -4,10 +4,17 @@ import { PROJECTS } from "../../data/data.js";
 
 import ProjectCard from "../../components/project_card/project_card.component";
 import PlusButton from "../plus_button/plus_button.component";
+import { useNavigate } from "react-router";
+
+
 
 const SkillsProjectsPreview = () => {
   let latestProjects = PROJECTS.slice(-3);
-
+    
+    const toProjects = useNavigate()
+  const handleClick = () => {
+    toProjects('/projects')
+  }
   return (
     <section className="skills__projects">
       <h2>Latest Projects</h2>
@@ -16,7 +23,7 @@ const SkillsProjectsPreview = () => {
           <ProjectCard key={project.id} project={project} />
         ))}
       </div>
-      <PlusButton where={"/projects"} external={false} />
+      <p id="plusButton" onClick={handleClick}>+ More</p>
     </section>
   );
 };
