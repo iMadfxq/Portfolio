@@ -1,7 +1,8 @@
 {
-  "name": "react-portfolio",
+  "name": "hostinger-react",
   "homepage": "https://imadfxq.com/",
-  "version": "0.1.0",
+  "version": "1.0.0",
+  "description": "My react portfolio",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.2",
