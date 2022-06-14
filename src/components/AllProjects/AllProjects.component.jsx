@@ -7,9 +7,11 @@ import ProjectCard from "../project_card/project_card.component";
 import ProjectsFilter from "../projectsFilter/projectsFilter.component";
 
 import { Link } from "react-router-dom";
+import { useSelector } from "react-redux";
 
 
 const AllProjects = () => {
+  const currentTab = useSelector(state => state.currentTab.value)
   let [active, setActive] = useState("");
   let filteredProjects = PROJECTS.filter((project) => {
     let found = false;
@@ -33,6 +35,7 @@ const AllProjects = () => {
         ))}
       </section>
       <Link to="/skills" className='next-button'>← Go Back</Link>
+      <p>{currentTab}</p>
     </section>
   );
 };

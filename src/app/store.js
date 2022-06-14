@@ -1,8 +1,9 @@
-// import { configureStore } from '@reduxjs/toolkit';
-// import counterReducer from '../features/counter/counterSlice';
+import { configureStore, createSlice } from "@reduxjs/toolkit";
 
-// export const store = configureStore({
-//   reducer: {
-//     counter: counterReducer,
-//   },
-// });
+import currentTabSlice from "./currentTabSlice";
+
+export default configureStore({
+  reducer: {
+    currentTab: currentTabSlice,
+  },
+});
