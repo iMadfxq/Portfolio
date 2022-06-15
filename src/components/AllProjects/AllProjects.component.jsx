@@ -9,8 +9,12 @@ import ProjectsFilter from "../projectsFilter/projectsFilter.component";
 import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
 
+import { useDispatch } from "react-redux";
+import { changeTab } from "../../app/currentTabSlice";
+
 
 const AllProjects = () => {
+  const dispatch = useDispatch()
   const currentTab = useSelector(state => state.currentTab.value)
   let [active, setActive] = useState("");
   let filteredProjects = PROJECTS.filter((project) => {
@@ -34,8 +38,9 @@ const AllProjects = () => {
           <ProjectCard project={p} key={p.id} />
         ))}
       </section>
-      <Link to="/skills" className='next-button'>← Go Back</Link>
-      <p>{currentTab}</p>
+      <Link to="/skills" className='next-button' onClick={() => {
+    dispatch(changeTab('skills'))
+        }}>← Go Back</Link>
     </section>
   );
 };

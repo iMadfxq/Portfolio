@@ -3,11 +3,12 @@ import { createSlice } from "@reduxjs/toolkit";
 const currentTabSlice = createSlice({
   name: "currentTab",
   initialState: {
-    value: "/",
+    value: "",
   },
   reducers: {
     changeTab: (state, action) => {
       state.value = action.payload;
+      window.scrollTo(0,0)
     },
   },
 });

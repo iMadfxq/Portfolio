@@ -27,4 +27,18 @@ $font-color-secondary: black;
       margin-right:4px;
     }
   }
+
+  .activeTab {
+    position: relative;
+    
+    &::after {
+      margin-bottom: 10px;
+      content: '';
+      position: absolute;
+      width: inherit;
+      height: 5px;
+      bottom: 0;
+      background-color: white;
+    }
+  }
 }

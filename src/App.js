@@ -15,7 +15,7 @@ const currentTab = useSelector(state => state.currentTab.value)
 
   const navigate = useNavigate()
   useEffect(() => {
-    navigate(currentTab)
+    navigate(`/${currentTab}`)
   }, [])
   return (
     <>

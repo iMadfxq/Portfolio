@@ -2,9 +2,13 @@ import './profile_info.styles.scss'
 
 import { Link } from "react-router-dom";
 
+import { useDispatch } from 'react-redux';
+import { changeTab } from '../../app/currentTabSlice';
+
 import MyPicture from '../../assets/images/myPicture-compressed.png'
 
 const ProfileInfo = () => {
+  const dispatch = useDispatch()
   return (
     <section className="profile__info">
       <img src={MyPicture} alt="Oscar Gomez" />
@@ -16,7 +20,9 @@ const ProfileInfo = () => {
           , and congruency. That's why I'm always working to get better
           as a professional and as a human being.
         </p>
-        <Link to="/skills" className='next-button'>See skills</Link>
+        <Link to="/skills" className='next-button' onClick={() => {
+    dispatch(changeTab('skills'))
+        }}>See skills</Link>
       </div>
     </section>
 

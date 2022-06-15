@@ -42,5 +42,18 @@ $font-color-secondary: black;
         margin-right: 5px;
       }
     }
+    .activeTab {
+      position: relative;
+      
+      &::after {
+        content: '';
+        position: absolute;
+        width: 120px;
+        height: 5px;
+        bottom: 0;
+        background-color: white;
+      }
+    }
+  
   }
 }

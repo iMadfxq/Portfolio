@@ -20,8 +20,6 @@ const tab = useSelector(state => state.currentTab.value)
   const handleClick = () => {
     toProjects('/projects')
     dispatch(changeTab('/projects'))
-    console.log(tab)
-    window.scrollTo(0,0)
   }
   return (
     <section className="skills__projects">
