@@ -9,6 +9,7 @@ const currentTabSlice = createSlice({
     changeTab: (state, action) => {
       state.value = action.payload;
       window.scrollTo(0,0)
+      localStorage.setItem('lastTabVisited', state.value)
     },
   },
 });

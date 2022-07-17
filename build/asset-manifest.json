@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c830d073.css",
-    "main.js": "/static/js/main.9141874d.js",
+    "main.js": "/static/js/main.71250b9f.js",
     "static/js/787.380eb6ec.chunk.js": "/static/js/787.380eb6ec.chunk.js",
     "static/media/myPicture-compressed.png": "/static/media/myPicture-compressed.c0959a43c624aba936bb.png",
     "static/media/Flag_of_Spain.svg": "/static/media/Flag_of_Spain.36cdd00d34fa3ab9d98aba66d3ac5b39.svg",
@@ -12,6 +12,7 @@
     "static/media/design.png": "/static/media/design.7da3c410a376286f9c54.png",
     "static/media/myBlogProject1.png": "/static/media/myBlogProject1.36f8066d31efd782e3aa.png",
     "static/media/iMadfxq_Banner.png": "/static/media/iMadfxq_Banner.2e9c60325ec1786a6792.png",
+    "static/media/reactPortfolio.png": "/static/media/reactPortfolio.bb3c03b923e3390601b3.png",
     "static/media/monsters_SPA.png": "/static/media/monsters_SPA.0803e15f26e62ba4507b.png",
     "static/media/spa.png": "/static/media/spa.e33d9fa3b77c9e405d38.png",
     "static/media/quiz.png": "/static/media/quiz.d7b8e10d3f089295aea2.png",
@@ -39,11 +40,11 @@
     "static/media/mail_icon_128820.svg": "/static/media/mail_icon_128820.0f121a27c547576e81dd31842b443d32.svg",
     "static/media/burgerMenu.svg": "/static/media/burgerMenu.1de374fc156de301104fc3dceeac6614.svg",
     "main.c830d073.css.map": "/static/css/main.c830d073.css.map",
-    "main.9141874d.js.map": "/static/js/main.9141874d.js.map",
+    "main.71250b9f.js.map": "/static/js/main.71250b9f.js.map",
     "787.380eb6ec.chunk.js.map": "/static/js/787.380eb6ec.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c830d073.css",
-    "static/js/main.9141874d.js"
+    "static/js/main.71250b9f.js"
   ]
 }

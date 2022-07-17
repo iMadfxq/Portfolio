@@ -11,6 +11,7 @@ import QuizImg from "../assets/images/projects/quiz.png";
 import WeatherAppImg from "../assets/images/projects/weatherApp.png";
 import MonstersSpaImg from "../assets/images/projects/monsters_SPA.png";
 import ReactNotesApp from "../assets/images/projects/reactNotesApp.png";
+import ReactPortfolio from "../assets/images/projects/reactPortfolio.png";
 
 import BrazilFlag from "../assets/images/langs/Flag_of_Brazil.svg";
 import USAFlag from "../assets/images/langs/Flag_of_the_United_States.svg";
@@ -192,6 +193,14 @@ export const PROJECTS = [
     website: "https://incredible-stroopwafel-e4fcd9.netlify.app/",
     github: "https://github.com/iMadfxq/react-NotesApp",
     id: 12,
+  },
+  {
+    title: "**This Website**",
+    tags: ["React-DOM", "Redux", "JavaScript", "Responsive"],
+    imgUrl: ReactPortfolio,
+    website: "https://imadfxq.com/",
+    github: "https://github.com/iMadfxq/Portfolio",
+    id: 13,
   },
 ];
 
